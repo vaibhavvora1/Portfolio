@@ -116,11 +116,13 @@ const Hero = () => {
             >
               View Projects <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </button>
-            <button 
+            <a 
+              href="/Vaibhav_Vora_Resume (2).pdf"
+              download="Vaibhav_Vora_Resume.pdf"
               className="px-8 py-4 border border-slate-200 dark:border-white/10 rounded-full flex items-center gap-2 hover:bg-white dark:hover:bg-white/5 hover:border-gold/50 transition-all duration-500"
             >
               Resume <Download size={18} />
-            </button>
+            </a>
           </div>
         </div>
 
